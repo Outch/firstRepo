@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="script.js" defer></script>
+	<title>Carnet d'Adresses</title>
+</head>
+<body>
+	<header>
+		<h2><i class="fas fa-book"></i> Carnet d'Adresses</h2>
+	</header>
+	<section>
+		<ul>
+		</ul>
+		<div id="info" class="showHide">
+			<h3 id="info_cpn"></h3>
+			<p id="info_tel"></p>
+			<a href="#" id="editer">Editer ce contact</a>
+		</div>
+		<button id="formtoggle"><i class="fas fa-plus"></i></button>
+		<button id="trashman"><i class="fas fa-trash-alt"></i></button>
+	</section>
+	<section id="secform" class="showHide">
+		<form>
+			<p>Civilité:
+			<select name="civilité" id="civilite">
+				<option value="madame">Madame</option>
+				<option value="monsieur">Monsieur</option>
+			</select></p>
+			<p>Nom:
+			<input type="text" name="nom" id="nom"></p>
+			<p>Prénom:
+			<input type="text" name="prenom" id="prenom"></p>
+			<p>Téléphone:
+			<input type="text" name="telephone" id="telephone"></p>
+			<button id="enregistrer">Enregistrer</button>
+		</form>
+	</section>
+</body>
+</html>

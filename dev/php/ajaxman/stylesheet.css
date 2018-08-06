@@ -1,0 +1,41 @@
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.flexman {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+	text-align: center;
+}
+
+.films {
+	flex: 25%;
+}
+
+#blockContent {
+	padding: 15px 30px;
+}
+
+div i {
+	color: grey;
+}
+
+.hide {
+	display: none;
+}
+
+h2 {
+	color: red;
+}
+
+fieldset {
+	margin-top: 40px;
+	border: 2px solid #6CADC9;
+}
+
+legend {
+	color: #6CADC9;
+}
