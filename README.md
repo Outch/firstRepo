@@ -1,4 +1,0 @@
-#firstRepo
-
-You sure ?
-ohohoh!!!!
